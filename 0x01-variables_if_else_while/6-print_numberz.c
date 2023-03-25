@@ -1,19 +1,15 @@
 #include <stdio.h>
 
 /**
-* main - prints 0 to 9
-* Return: 0  if successful
+* main - prints 0 to 9 to stdout
+* Return: 0 if successful
 */
 
 int main(void)
 {
-	char n;
-
-	for (n = '0'; n <= '9'; n++)
+	for (int num = '0'; num <= '9'; num++)
 	{
-	putchar(n);
+	putchar(num);
 	}
 	putchar('\n');
-
-	return (0);
 }
