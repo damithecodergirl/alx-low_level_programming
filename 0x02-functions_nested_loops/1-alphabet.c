@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-* main - prints lower case with a prototype function in "main.h"
+* print_alphabet - prints lower case with a prototype function in "main.h"
 */
 
 
